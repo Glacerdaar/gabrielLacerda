@@ -1,0 +1,12 @@
+@import "../../vars.css";
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10vh 0;
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+}
