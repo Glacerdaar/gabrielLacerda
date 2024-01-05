@@ -2,7 +2,7 @@ import  { useState } from 'react'
 import styles from "./skill.module.css" 
 import { getImageUrl } from '../../utils'
 
-const Skill = () => {
+const skill = () => {
     const [highlightedSkill, setHighlightedSkill] = useState(null);
         const skillMessages = {
             HTML: 'HTML, que significa HyperText Markup Language, é como o esqueleto da web. Imagine-o como a estrutura de uma casa. Com suas tags, o HTML marca e organiza os elementos, definindo quem é o quê numa página. Ele é fundamental para criar a base sobre a qual as informações são exibidas, tornando a web funcional e estruturada.',
@@ -143,4 +143,4 @@ const Skill = () => {
   )
 }
 
-export default Skill
+export default skill
