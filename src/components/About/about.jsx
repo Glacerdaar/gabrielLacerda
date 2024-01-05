@@ -3,7 +3,7 @@ import { getImageUrl } from '../../utils'
 import styles from "./About.module.css"
 
 
-const about = () => {
+const About = () => {
   return (
     <section className={styles.about}>
       <div className={styles.container}>
@@ -20,4 +20,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
