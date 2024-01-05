@@ -1,5 +1,5 @@
 import { getImageUrl } from "../../utils"
-import styles from "./Hero.module.css"
+import styles from "./hero.module.css"
 
 const Hero = () => {
   return (
