@@ -1,6 +1,6 @@
 // import React from 'react'
 import { getImageUrl } from '../../utils'
-import styles from "./about.module.css"
+import styles from "./About.module.css"
 
 
 const about = () => {
