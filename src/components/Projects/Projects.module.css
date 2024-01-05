@@ -2,7 +2,7 @@
 
 
 .projects {
-    margin: 0 10%;
+    margin: 0 auto;
     color: #fff;
     text-align: center;
     padding: 10vh;
@@ -11,4 +11,22 @@
 .title {
     font-size: 52px;
     margin-bottom: 32px;
+}
+
+
+@media screen and (max-width: 767px)  {
+    .projects {
+        margin: 0 5%;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .projects {
+        margin: 0 10%;
+    }
 }
